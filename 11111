@@ -1,0 +1,317 @@
+Script started on 2022-12-14 10:20:23-05:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="54" LINES="20"]
+]0;seed@VM: ~[12/14/22][01;32mseed@VM[00m:[01;34m~[00m$ s[Kdockps
+9ba5be189e18  seed-attacker
+dd91b240f0cf  hostA-10.9.0.5
+f7fe95c867a7  hostB-10.9.0.6
+]0;seed@VM: ~[12/14/22][01;32mseed@VM[00m:[01;34m~[00m$ docksh dd
+root@dd91b240f0cf:/# ping 10.0 9.0.6
+PING 10.9.0.6 (10.9.0.6) 56(84) bytes of data.
+64 bytes from 10.9.0.6: icmp_seq=1 ttl=64 time=0.069 ms
+64 bytes from 10.9.0.6: icmp_seq=2 ttl=64 time=0.056 ms
+64 bytes from 10.9.0.6: icmp_seq=3 ttl=64 time=0.067 ms
+64 bytes from 10.9.0.6: icmp_seq=4 ttl=64 time=0.217 ms
+64 bytes from 10.9.0.6: icmp_seq=5 ttl=64 time=0.101 ms
+64 bytes from 10.9.0.6: icmp_seq=6 ttl=64 time=0.058 ms
+64 bytes from 10.9.0.6: icmp_seq=7 ttl=64 time=0.083 ms
+64 bytes from 10.9.0.6: icmp_seq=8 ttl=64 time=0.059 ms
+64 bytes from 10.9.0.6: icmp_seq=9 ttl=64 time=0.071 ms
+64 bytes from 10.9.0.6: icmp_seq=10 ttl=64 time=0.058 ms
+64 bytes from 10.9.0.6: icmp_seq=11 ttl=64 time=0.057 ms
+64 bytes from 10.9.0.6: icmp_seq=12 ttl=64 time=0.080 ms
+64 bytes from 10.9.0.6: icmp_seq=13 ttl=64 time=0.078 ms
+64 bytes from 10.9.0.6: icmp_seq=14 ttl=64 time=0.070 ms
+64 bytes from 10.9.0.6: icmp_seq=15 ttl=64 time=0.053 ms
+64 bytes from 10.9.0.6: icmp_seq=16 ttl=64 time=0.062 ms
+64 bytes from 10.9.0.6: icmp_seq=17 ttl=64 time=0.062 ms
+64 bytes from 10.9.0.6: icmp_seq=18 ttl=64 time=0.102 ms
+64 bytes from 10.9.0.6: icmp_seq=19 ttl=64 time=0.106 ms
+64 bytes from 10.9.0.6: icmp_seq=20 ttl=64 time=0.059 ms
+64 bytes from 10.9.0.6: icmp_seq=21 ttl=64 time=0.272 ms
+64 bytes from 10.9.0.6: icmp_seq=22 ttl=64 time=0.055 ms
+64 bytes from 10.9.0.6: icmp_seq=23 ttl=64 time=0.054 ms
+64 bytes from 10.9.0.6: icmp_seq=24 ttl=64 time=0.052 ms
+64 bytes from 10.9.0.6: icmp_seq=25 ttl=64 time=0.054 ms
+64 bytes from 10.9.0.6: icmp_seq=26 ttl=64 time=0.057 ms
+64 bytes from 10.9.0.6: icmp_seq=27 ttl=64 time=0.057 ms
+64 bytes from 10.9.0.6: icmp_seq=28 ttl=64 time=0.056 ms
+64 bytes from 10.9.0.6: icmp_seq=29 ttl=64 time=0.105 ms
+64 bytes from 10.9.0.6: icmp_seq=30 ttl=64 time=0.053 ms
+64 bytes from 10.9.0.6: icmp_seq=31 ttl=64 time=0.074 ms
+64 bytes from 10.9.0.6: icmp_seq=32 ttl=64 time=0.051 ms
+64 bytes from 10.9.0.6: icmp_seq=33 ttl=64 time=0.050 ms
+64 bytes from 10.9.0.6: icmp_seq=34 ttl=64 time=0.053 ms
+64 bytes from 10.9.0.6: icmp_seq=35 ttl=64 time=0.056 ms
+64 bytes from 10.9.0.6: icmp_seq=36 ttl=64 time=0.053 ms
+64 bytes from 10.9.0.6: icmp_seq=37 ttl=64 time=0.084 ms
+64 bytes from 10.9.0.6: icmp_seq=38 ttl=64 time=0.062 ms
+64 bytes from 10.9.0.6: icmp_seq=39 ttl=64 time=0.108 ms
+64 bytes from 10.9.0.6: icmp_seq=40 ttl=64 time=0.061 ms
+64 bytes from 10.9.0.6: icmp_seq=41 ttl=64 time=0.118 ms
+64 bytes from 10.9.0.6: icmp_seq=42 ttl=64 time=0.061 ms
+64 bytes from 10.9.0.6: icmp_seq=43 ttl=64 time=0.064 ms
+64 bytes from 10.9.0.6: icmp_seq=44 ttl=64 time=0.280 ms
+64 bytes from 10.9.0.6: icmp_seq=45 ttl=64 time=0.177 ms
+64 bytes from 10.9.0.6: icmp_seq=46 ttl=64 time=0.058 ms
+64 bytes from 10.9.0.6: icmp_seq=47 ttl=64 time=0.062 ms
+64 bytes from 10.9.0.6: icmp_seq=48 ttl=64 time=0.058 ms
+64 bytes from 10.9.0.6: icmp_seq=49 ttl=64 time=0.058 ms
+64 bytes from 10.9.0.6: icmp_seq=50 ttl=64 time=0.074 ms
+64 bytes from 10.9.0.6: icmp_seq=51 ttl=64 time=0.101 ms
+64 bytes from 10.9.0.6: icmp_seq=52 ttl=64 time=0.053 ms
+64 bytes from 10.9.0.6: icmp_seq=53 ttl=64 time=0.094 ms
+64 bytes from 10.9.0.6: icmp_seq=54 ttl=64 time=0.282 ms
+64 bytes from 10.9.0.6: icmp_seq=55 ttl=64 time=0.076 ms
+64 bytes from 10.9.0.6: icmp_seq=56 ttl=64 time=0.053 ms
+ta64 bytes from 10.9.0.6: icmp_seq=57 ttl=64 time=0.052 ms
+64 bytes from 10.9.0.6: icmp_seq=58 ttl=64 time=0.061 ms
+t64 bytes from 10.9.0.6: icmp_seq=59 ttl=64 time=0.053 ms
+64 bytes from 10.9.0.6: icmp_seq=60 ttl=64 time=0.097 ms
+64 bytes from 10.9.0.6: icmp_seq=61 ttl=64 time=0.048 ms
+64 bytes from 10.9.0.6: icmp_seq=62 ttl=64 time=0.060 ms
+64 bytes from 10.9.0.6: icmp_seq=63 ttl=64 time=0.053 ms
+64 bytes from 10.9.0.6: icmp_seq=64 ttl=64 time=0.061 ms
+64 bytes from 10.9.0.6: icmp_seq=65 ttl=64 time=0.082 ms
+64 bytes from 10.9.0.6: icmp_seq=66 ttl=64 time=0.054 ms
+e64 bytes from 10.9.0.6: icmp_seq=67 ttl=64 time=0.052 ms
+64 bytes from 10.9.0.6: icmp_seq=68 ttl=64 time=0.088 ms
+jaskdn64 bytes from 10.9.0.6: icmp_seq=69 ttl=64 time=0.067 ms
+
+64 bytes from 10.9.0.6: icmp_seq=70 ttl=64 time=0.071 ms
+64 bytes from 10.9.0.6: icmp_seq=71 ttl=64 time=0.093 ms
+64 bytes from 10.9.0.6: icmp_seq=72 ttl=64 time=0.060 ms
+64 bytes from 10.9.0.6: icmp_seq=73 ttl=64 time=0.067 ms
+
+64 bytes from 10.9.0.6: icmp_seq=74 ttl=64 time=0.070 ms
+64 bytes from 10.9.0.6: icmp_seq=75 ttl=64 time=0.059 ms
+p64 bytes from 10.9.0.6: icmp_seq=76 ttl=64 time=0.048 ms
+ing64 bytes from 10.9.0.6: icmp_seq=77 ttl=64 time=0.054 ms
+64 bytes from 10.9.0.6: icmp_seq=78 ttl=64 time=0.052 ms
+^[64 bytes from 10.9.0.6: icmp_seq=79 ttl=64 time=0.051 ms
+64 bytes from 10.9.0.6: icmp_seq=80 ttl=64 time=0.061 ms
+64 bytes from 10.9.0.6: icmp_seq=81 ttl=64 time=0.056 ms
+64 bytes from 10.9.0.6: icmp_seq=82 ttl=64 time=0.645 ms
+64 bytes from 10.9.0.6: icmp_seq=83 ttl=64 time=0.088 ms
+64 bytes from 10.9.0.6: icmp_seq=84 ttl=64 time=0.332 ms
+64 bytes from 10.9.0.6: icmp_seq=85 ttl=64 time=0.247 ms
+64 bytes from 10.9.0.6: icmp_seq=86 ttl=64 time=0.060 ms
+64 bytes from 10.9.0.6: icmp_seq=87 ttl=64 time=0.055 ms
+64 bytes from 10.9.0.6: icmp_seq=88 ttl=64 time=0.081 ms
+64 bytes from 10.9.0.6: icmp_seq=89 ttl=64 time=0.056 ms
+64 bytes from 10.9.0.6: icmp_seq=90 ttl=64 time=0.148 ms
+64 bytes from 10.9.0.6: icmp_seq=91 ttl=64 time=0.098 ms
+64 bytes from 10.9.0.6: icmp_seq=92 ttl=64 time=0.681 ms
+64 bytes from 10.9.0.6: icmp_seq=93 ttl=64 time=0.099 ms
+64 bytes from 10.9.0.6: icmp_seq=94 ttl=64 time=0.287 ms
+64 bytes from 10.9.0.6: icmp_seq=95 ttl=64 time=0.064 ms
+64 bytes from 10.9.0.6: icmp_seq=96 ttl=64 time=0.321 ms
+64 bytes from 10.9.0.6: icmp_seq=97 ttl=64 time=0.065 ms
+64 bytes from 10.9.0.6: icmp_seq=98 ttl=64 time=0.239 ms
+64 bytes from 10.9.0.6: icmp_seq=99 ttl=64 time=0.062 ms
+64 bytes from 10.9.0.6: icmp_seq=100 ttl=64 time=0.067 ms
+64 bytes from 10.9.0.6: icmp_seq=101 ttl=64 time=0.124 ms
+64 bytes from 10.9.0.6: icmp_seq=102 ttl=64 time=0.092 ms
+64 bytes from 10.9.0.6: icmp_seq=103 ttl=64 time=0.058 ms
+64 bytes from 10.9.0.6: icmp_seq=104 ttl=64 time=0.415 ms
+64 bytes from 10.9.0.6: icmp_seq=105 ttl=64 time=0.083 ms
+64 bytes from 10.9.0.6: icmp_seq=106 ttl=64 time=0.050 ms
+64 bytes from 10.9.0.6: icmp_seq=107 ttl=64 time=0.131 ms
+64 bytes from 10.9.0.6: icmp_seq=108 ttl=64 time=0.061 ms
+64 bytes from 10.9.0.6: icmp_seq=109 ttl=64 time=0.071 ms
+64 bytes from 10.9.0.6: icmp_seq=110 ttl=64 time=0.097 ms
+64 bytes from 10.9.0.6: icmp_seq=111 ttl=64 time=0.055 ms
+64 bytes from 10.9.0.6: icmp_seq=112 ttl=64 time=0.064 ms
+64 bytes from 10.9.0.6: icmp_seq=113 ttl=64 time=0.059 ms
+64 bytes from 10.9.0.6: icmp_seq=114 ttl=64 time=0.080 ms
+64 bytes from 10.9.0.6: icmp_seq=115 ttl=64 time=0.062 ms
+64 bytes from 10.9.0.6: icmp_seq=116 ttl=64 time=0.075 ms
+64 bytes from 10.9.0.6: icmp_seq=117 ttl=64 time=0.057 ms
+64 bytes from 10.9.0.6: icmp_seq=118 ttl=64 time=0.062 ms
+64 bytes from 10.9.0.6: icmp_seq=119 ttl=64 time=0.084 ms
+64 bytes from 10.9.0.6: icmp_seq=120 ttl=64 time=0.055 ms
+64 bytes from 10.9.0.6: icmp_seq=121 ttl=64 time=0.057 ms
+^[[A64 bytes from 10.9.0.6: icmp_seq=122 ttl=64 time=0.056 ms
+^[[A^[[A^[[A64 bytes from 10.9.0.6: icmp_seq=123 ttl=64 time=0.053 ms
+^[[B^[[B64 bytes from 10.9.0.6: icmp_seq=124 ttl=64 time=0.066 ms
+^[[B64 bytes from 10.9.0.6: icmp_seq=125 ttl=64 time=0.061 ms
+64 bytes from 10.9.0.6: icmp_seq=126 ttl=64 time=0.094 ms
+64 bytes from 10.9.0.6: icmp_seq=127 ttl=64 time=0.057 ms
+64 bytes from 10.9.0.6: icmp_seq=128 ttl=64 time=0.058 ms
+64 bytes from 10.9.0.6: icmp_seq=129 ttl=64 time=0.102 ms
+64 bytes from 10.9.0.6: icmp_seq=130 ttl=64 time=0.072 ms
+64 bytes from 10.9.0.6: icmp_seq=131 ttl=64 time=0.056 ms
+64 bytes from 10.9.0.6: icmp_seq=132 ttl=64 time=0.284 ms
+64 bytes from 10.9.0.6: icmp_seq=133 ttl=64 time=0.054 ms
+64 bytes from 10.9.0.6: icmp_seq=134 ttl=64 time=0.076 ms
+64 bytes from 10.9.0.6: icmp_seq=135 ttl=64 time=0.052 ms
+64 bytes from 10.9.0.6: icmp_seq=136 ttl=64 time=0.075 ms
+64 bytes from 10.9.0.6: icmp_seq=137 ttl=64 time=0.059 ms
+64 bytes from 10.9.0.6: icmp_seq=138 ttl=64 time=0.058 ms
+64 bytes from 10.9.0.6: icmp_seq=139 ttl=64 time=0.055 ms
+64 bytes from 10.9.0.6: icmp_seq=140 ttl=64 time=0.058 ms
+64 bytes from 10.9.0.6: icmp_seq=141 ttl=64 time=0.068 ms
+64 bytes from 10.9.0.6: icmp_seq=142 ttl=64 time=0.145 ms
+64 bytes from 10.9.0.6: icmp_seq=143 ttl=64 time=0.081 ms
+64 bytes from 10.9.0.6: icmp_seq=144 ttl=64 time=0.351 ms
+64 bytes from 10.9.0.6: icmp_seq=145 ttl=64 time=0.061 ms
+64 bytes from 10.9.0.6: icmp_seq=146 ttl=64 time=0.079 ms
+64 bytes from 10.9.0.6: icmp_seq=147 ttl=64 time=0.059 ms
+64 bytes from 10.9.0.6: icmp_seq=148 ttl=64 time=0.080 ms
+64 bytes from 10.9.0.6: icmp_seq=149 ttl=64 time=0.097 ms
+64 bytes from 10.9.0.6: icmp_seq=150 ttl=64 time=0.065 ms
+64 bytes from 10.9.0.6: icmp_seq=151 ttl=64 time=0.067 ms
+64 bytes from 10.9.0.6: icmp_seq=152 ttl=64 time=0.062 ms
+64 bytes from 10.9.0.6: icmp_seq=153 ttl=64 time=0.079 ms
+64 bytes from 10.9.0.6: icmp_seq=154 ttl=64 time=0.084 ms
+64 bytes from 10.9.0.6: icmp_seq=155 ttl=64 time=0.056 ms
+64 bytes from 10.9.0.6: icmp_seq=156 ttl=64 time=0.078 ms
+64 bytes from 10.9.0.6: icmp_seq=157 ttl=64 time=0.063 ms
+64 bytes from 10.9.0.6: icmp_seq=158 ttl=64 time=0.051 ms
+64 bytes from 10.9.0.6: icmp_seq=159 ttl=64 time=0.089 ms
+64 bytes from 10.9.0.6: icmp_seq=160 ttl=64 time=0.054 ms
+64 bytes from 10.9.0.6: icmp_seq=161 ttl=64 time=0.095 ms
+64 bytes from 10.9.0.6: icmp_seq=162 ttl=64 time=0.069 ms
+64 bytes from 10.9.0.6: icmp_seq=163 ttl=64 time=0.088 ms
+64 bytes from 10.9.0.6: icmp_seq=164 ttl=64 time=0.096 ms
+64 bytes from 10.9.0.6: icmp_seq=165 ttl=64 time=0.054 ms
+64 bytes from 10.9.0.6: icmp_seq=166 ttl=64 time=0.051 ms
+64 bytes from 10.9.0.6: icmp_seq=167 ttl=64 time=0.052 ms
+64 bytes from 10.9.0.6: icmp_seq=168 ttl=64 time=0.069 ms
+64 bytes from 10.9.0.6: icmp_seq=169 ttl=64 time=0.219 ms
+64 bytes from 10.9.0.6: icmp_seq=170 ttl=64 time=0.049 ms
+^C
+--- 10.9.0.6 ping statistics ---
+170 packets transmitted, 170 received, 0% packet loss, time 173105ms
+rtt min/avg/max/mdev = 0.048/0.093/0.681/0.088 ms
+root@dd91b240f0cf:/# ls
+bin   etc   lib32   media  proc  sbin  tmp
+boot  home  lib64   mnt    root  srv   usr
+dev   lib   libx32  opt    run	 sys   var
+root@dd91b240f0cf:/# exit
+exit
+]0;seed@VM: ~[12/14/22][01;32mseed@VM[00m:[01;34m~[00m$ vi [K[K[Kls
+11111   [0m[01;34maics324-22f[0m  [01;34mgogo[0m      [01;32mmycode.py[0m  task1.py
+121212  [01;34mDesktop[0m      icmp.c    [01;34mPictures[0m   [01;34mTemplates[0m
+2       [01;34mDocuments[0m    [01;34mLabsetup[0m  [01;34mPublic[0m     typescript
+213213  [01;34mDownloads[0m    [01;34mMusic[0m     [01;32msniff[0m      [01;34mVideos[0m
+]0;seed@VM: ~[12/14/22][01;32mseed@VM[00m:[01;34m~[00m$ cd gogo/Labsetup1/volumes/task1.p y
+bash: cd: gogo/Labsetup1/volumes/task1.py: No such file or directory
+]0;seed@VM: ~[12/14/22][01;32mseed@VM[00m:[01;34m~[00m$ vi task1.py
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;20r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[20;1H"task1.py" 7L, 153C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m#!/usr/bin/env python3[m
+[35mfrom[m scapy.all [35mimport[m *
+
+[38;5;130mdef[m [36mprint_pkt[m (pkt) :
+    pkt.show()
+
+pkt = sniff[106m([miface=[31m'br-42c7daac5c6a'[m, [36mfilter[m=[31m'icmp'[m, prr[8;1Hn=print_pkt[106m)[m
+[94m~                                                     [10;1H~                                                     [11;1H~                                                     [12;1H~                                                     [13;1H~                                                     [14;1H~                                                     [15;1H~                                                     [16;1H~                                                     [17;1H~                                                     [18;1H~                                                     [19;1H~                                                     [m[20;37H7,66[10CAll[8;12H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[20;27H:[8;12H[20;1H[K[20;1H:[?2004h[?25hwq[?25l[?2004l"task1.py"<sk1.py" 7L, 153C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;seed@VM: ~[12/14/22][01;32mseed@VM[00m:[01;34m~[00m$ ls
+11111   [0m[01;34maics324-22f[0m  [01;34mgogo[0m      [01;32mmycode.py[0m  task1.py
+121212  [01;34mDesktop[0m      icmp.c    [01;34mPictures[0m   [01;34mTemplates[0m
+2       [01;34mDocuments[0m    [01;34mLabsetup[0m  [01;34mPublic[0m     typescript
+213213  [01;34mDownloads[0m    [01;34mMusic[0m     [01;32msniff[0m      [01;34mVideos[0m
+]0;seed@VM: ~[12/14/22][01;32mseed@VM[00m:[01;34m~[00m$ cd gogo
+]0;seed@VM: ~/gogo[12/14/22][01;32mseed@VM[00m:[01;34m~/gogo[00m$ cd Labsetup1
+]0;seed@VM: ~/.../Labsetup1[12/14/22][01;32mseed@VM[00m:[01;34m~/.../Labsetup1[00m$ ls
+docker-compose.yml  [0m[01;34mvolumes[0m
+]0;seed@VM: ~/.../Labsetup1[12/14/22][01;32mseed@VM[00m:[01;34m~/.../Labsetup1[00m$ cd volumes
+]0;seed@VM: ~/.../volumes[12/14/22][01;32mseed@VM[00m:[01;34m~/.../volumes[00m$ ls
+]0;seed@VM: ~/.../volumes[12/14/22][01;32mseed@VM[00m:[01;34m~/.../volumes[00m$ task1.1[K[K.py
+task1.py: command not found
+]0;seed@VM: ~/.../volumes[12/14/22][01;32mseed@VM[00m:[01;34m~/.../volumes[00m$ cd ..
+]0;seed@VM: ~/.../Labsetup1[12/14/22][01;32mseed@VM[00m:[01;34m~/.../Labsetup1[00m$ cd ..
+]0;seed@VM: ~/gogo[12/14/22][01;32mseed@VM[00m:[01;34m~/gogo[00m$ s[Kcd Labsetup1/volumes/task1.p y Labsetup/volumes/task1.b.py
+bash: cd: too many arguments
+]0;seed@VM: ~/gogo[12/14/22][01;32mseed@VM[00m:[01;34m~/gogo[00m$ cd ..
+]0;seed@VM: ~[12/14/22][01;32mseed@VM[00m:[01;34m~[00m$ vi task1b.py
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;20r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[20;1H"task1b.py" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                     [3;1H~                                                     [4;1H~                                                     [5;1H~                                                     [6;1H~                                                     [7;1H~                                                     [8;1H~                                                     [9;1H~                                                     [10;1H~                                                     [11;1H~                                                     [12;1H~                                                     [13;1H~                                                     [14;1H~                                                     [15;1H~                                                     [16;1H~                                                     [17;1H~                                                     [18;1H~                                                     [19;1H~                                                     [m[20;37H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[20;1H[1m-- INSERT --[m[20;13H[K[20;37H0,1[11CAll[1;1H[?25h[?25l[34m#!/usr/bin/env python3[m
+[35mfrom[m scapy.all [35mimport[m *[2;24H[K[3;1H[38;5;130mdef[m [36mprint_pkt[m(pkt):[3;20H[K[4;1Hpk[4;3H[K[4;3H[?25h[?25lt.show()
+pkt = sniff(iface=’[5;20Hbr-c93733e9f913’[5;36H, [36mfilter[m=’[5;46Hicmp’[5;51H[K[5;51H[?25h[?25l, prr[6;1Hn=print_pkt)[6;13H[K[6;13H[?25h[?25l[20;1H[K[5;12H[106m([m[41Crr[6;1Hn[10C[106m)[m[20;37H5,74-66[7CAll[6;12H[?25h[?25l[20;27Hi[6;12H[20;27H [6;12H[20;1H[1m-- INSERT --[m[20;37H[K[20;37H5,74-66[7CAll[6;12H[?25h[?25l[4;9H[106m()[m[5;12H([41Crr[6;1Hn[10C)[20;37H4,11   [4;11H[?25h[?25l()[5;12H[106m([m[41Crr[6;1Hn[10C[106m)[m[20;37H5,74-66[6;12H[?25h[?25l[4;9H[106m()[m[5;12H([41Crr[6;1Hn[10C)[20;37H4,11   [4;11H[?25h[?25l()[5;12H[106m([m[41Crr[6;1Hn[10C[106m)[m[20;37H5,74-66[6;12H[?25h[?25l[5;12H([41Crr[6;1Hn[10C)[20;40H3-65[6;11H[?25h[?25l[20;40H2-64[6;10H[?25h[?25l[20;40H1-63[6;9H[?25h[?25l[20;40H0-62[6;8H[?25h[?25l[20;39H69-61[6;7H[?25h[?25l[20;40H8-60[6;6H[?25h[?25l[20;40H7-59[6;5H[?25h[?25l[20;40H6-58[6;4H[?25h[?25l[20;40H5-57[6;3H[?25h[?25l[20;40H4-56[6;2H[?25h[?25l[20;40H3-55[6;1H[?25h[?25l[20;40H2-54[5;54H[?25h[?25l[20;40H1-53[5;53H[?25h[?25l[20;40H0-52[5;52H[?25h[?25l[20;39H59-51[5;51H[?25h[?25l[20;40H6-50[5;50H[?25h[?25l[20;40H5-49[5;49H[?25h[?25l[20;40H4-48[5;48H[?25h[?25l[20;40H3-47[5;47H[?25h[?25l[20;40H2-46[5;46H[?25h[?25l[20;39H49-45[5;45H[?25h[?25l[20;40H8-44[5;44H[?25h[?25l[20;40H7-43[5;43H[?25h[?25l[20;40H6-42[5;42H[?25h[?25l[20;40H5-41[5;41H[?25h[?25l[20;40H4-40[5;40H[?25h[?25l[20;40H3-39[5;39H[?25h[?25l[20;40H2-38[5;38H[?25h[?25l[20;40H1-37[5;37H[?25h[?25l[20;40H0-36[5;36H[?25h[?25l[20;39H37-35[5;35H[?25h[?25l[20;40H6-34[5;34H[?25h[?25l[20;40H5-33[5;33H[?25h[?25l[20;40H4-32[5;32H[?25h[?25l[20;40H5-33[5;33H[?25h[?25l[20;40H6-34[5;34H[?25h[?25l[20;40H7-35[5;35H[?25h[?25l’[5;35H, [36mfilter[m=’[5;45Hicmp’[5;50H, prnn[6;1H=print_pkt)[6;12H[K[20;40H6-34[5;34H[?25h[?25l’[5;34H, [36mfilter[m=’[5;44Hicmp’[5;49H, prn==[6;1Hprint_pkt)[6;11H[K[20;40H5-33[5;33H[?25h[?25l’[5;33H, [36mfilter[m=’[5;43Hicmp’[5;48H, prn=pp[6;1Hrint_pkt)[6;10H[K[20;40H4-32[5;32H[?25h[?25l’[5;32H, [36mfilter[m=’[5;42Hicmp’[5;47H, prn=prr[6;1Hint_pkt)[6;9H[K[20;40H3-31[5;31H[?25h[?25l’[5;31H, [36mfilter[m=’[5;41Hicmp’[5;46H, prn=prii[6;1Hnt_pkt)[6;8H[K[20;40H2-30[5;30H[?25h[?25l’[5;30H, [36mfilter[m=’[5;40Hicmp’[5;45H, prn=prinn[6;1Ht_pkt)[6;7H[K[20;40H1-29[5;29H[?25h[?25l’[5;29H, [36mfilter[m=’[5;39Hicmp’[5;44H, prn=printt[6;1H_pkt)[6;6H[K[20;40H0-28[5;28H[?25h[?25l’[5;28H, [36mfilter[m=’[5;38Hicmp’[5;43H, prn=print__[6;1Hpkt)[6;5H[K[20;39H29-27[5;27H[?25h[?25l’[5;27H, [36mfilter[m=’[5;37Hicmp’[5;42H, prn=print_pp[6;1Hkt)[6;4H[K[20;40H8-26[5;26H[?25h[?25l’[5;26H, [36mfilter[m=’[5;36Hicmp’[5;41H, prn=print_pkk[6;1Ht)[6;3H[K[20;40H7-25[5;25H[?25h[?25l’[5;25H, [36mfilter[m=’[5;35Hicmp’[5;40H, prn=print_pktt[6;1H)[6;2H[K[20;40H6-24[5;24H[?25h[?25l’[5;24H, [36mfilter[m=’[5;34Hicmp’[5;39H, prn=print_pkt)[6;1H[94m~                                                     [m[20;40H5-23[5;23H[?25h[?25l’[5;23H, [36mfilter[m=’[5;33Hicmp’[5;38H, prn=print_pkt)[5;54H[K[20;40H4-22[5;22H[?25h[?25l’[5;22H, [36mfilter[m=’[5;32Hicmp’[5;37H, prn=print_pkt)[5;53H[K[20;40H3-21[5;21H[?25h[?25l’[5;21H, [36mfilter[m=’[5;31Hicmp’[5;36H, prn=print_pkt)[5;52H[K[20;40H2-20[5;20H[?25h[?25lbr-42c7daac5c6a[3C[36mfilter[m=’[5;46Hicmp’[5;51H, prr[6;1Hn=print_pkt)[6;13H[K[5;35H[?25h[?25l[20;39H37-35[5;35H[?25h[?25l[20;40H6-34[5;34H[?25h[?25l[20;40H7-35[5;35H[?25h[?25l[20;39H40-36[5;36H[?25h[?25l[20;40H1-37[5;37H[?25h[?25l[20;40H2-38[5;38H[?25h[?25l[20;40H3-39[5;39H[?25h[?25l[20;40H4-40[5;40H[?25h[?25l[20;40H5-41[5;41H[?25h[?25l[20;40H6-42[5;42H[?25h[?25l[20;40H7-43[5;43H[?25h[?25l[20;40H8-44[5;44H[?25h[?25l[20;40H9-45[5;45H[?25h[?25l[20;39H52-46[5;46H[?25h[?25l[20;40H3-47[5;47H[?25h[?25l[20;40H4-48[5;48H[?25h[?25l[20;40H5-49[5;49H[?25h[?25l[20;40H6-50[5;50H[?25h[?25l’[5;50H, prnn[6;1H=print_pkt)[6;12H[K[20;40H5-49[5;49H[?25h[?25l’[5;49H, prn==[6;1Hprint_pkt)[6;11H[K[20;40H4-48[5;48H[?25h[?25l’[5;48H, prn=pp[6;1Hrint_pkt)[6;10H[K[20;40H3-47[5;47H[?25h[?25l’[5;47H, prn=prr[6;1Hint_pkt)[6;9H[K[20;40H2-46[5;46H[?25h[?25lt’[5;48H, prn=pp[6;1Hrint_pkt)[20;40H3-47[5;47H[?25h[?25l’[5;47H, prn=prr[6;1Hint_pkt)[6;9H[K[20;40H2-46[5;46H[?25h[?25lt’[5;48H, prn=pp[6;1Hrint_pkt)[20;40H3-47[5;47H[?25h[?25lc’[5;49H, prn==[6;1Hprint_pkt)[20;40H4-48[5;48H[?25h[?25lp’[5;50H, prnn[6;1H=print_pkt)[20;40H5-49[5;49H[?25h[?25l ’[5;51H, prr[6;1Hn=print_pkt)[20;40H6-50[5;50H[?25h[?25la’[5;52H, pp[6;1Hrn=print_pkt)[20;40H7-51[5;51H[?25h[?25ln’[5;53H,  [6;1Hprn=print_pkt)[20;40H8-52[5;52H[?25h[?25l[38;5;130mand[m’[5;54H,,[6;1H prn=print_pkt)[20;40H9-53[5;53H[?25h[?25l ’[5;54H’ [6;1H, prn=print_pkt)[20;39H60-54[5;54H[?25h[?25lii[6;1H’[6;2H, prn=print_pkt)[20;40H1-55[6;1H[?25h[?25lp’[6;3H, prn=print_pkt)[20;40H2-56[6;2H[?25h[?25l ’[6;4H, prn=print_pkt)[20;40H3-57[6;3H[?25h[?25ls’[6;5H, prn=print_pkt)[20;40H4-58[6;4H[?25h[?25lr’[6;6H, prn=print_pkt)[20;40H5-59[6;5H[?25h[?25lc’[6;7H, prn=print_pkt)[20;40H6-60[6;6H[?25h[?25l ’[6;8H, prn=print_pkt)[20;40H7-61[6;7H[?25h[?25l[31m1[m’[6;9H, prn=print_pkt)[20;40H8-62[6;8H[?25h[?25l[31m0[m’[6;10H, prn=print_pkt)[20;40H9-63[6;9H[?25h[?25l[31m.[m’[6;11H, prn=print_pkt)[20;39H70-64[6;10H[?25h[?25l[31m9[m’[6;12H, prn=print_pkt)[20;40H1-65[6;11H[?25h[?25l.’[6;13H, prn=print_pkt)[20;40H2-66[6;12H[?25h[?25l[31m0[m’[6;14H, prn=print_pkt)[20;40H3-67[6;13H[?25h[?25l[31m.[m’[6;15H, prn=print_pkt)[20;40H4-68[6;14H[?25h[?25l[31m5[m’[6;16H, prn=print_pkt)[20;40H5-69[6;15H[?25h[?25l ’[6;17H, prn=print_pkt)[20;40H6-70[6;16H[?25h[?25la’[6;18H, prn=print_pkt)[20;40H7-71[6;17H[?25h[?25ln’[6;19H, prn=print_pkt)[20;40H8-72[6;18H[?25h[?25l[38;5;130mand[m’[6;20H, prn=print_pkt)[20;40H9-73[6;19H[?25h[?25l ’[6;21H, prn=print_pkt)[20;39H80-74[6;20H[?25h[?25ld’[6;22H, prn=print_pkt)[20;40H1-75[6;21H[?25h[?25le’[6;23H, prn=print_pkt)[20;40H2-76[6;22H[?25h[?25ls’[6;24H, prn=print_pkt)[20;40H3-77[6;23H[?25h[?25lt’[6;25H, prn=print_pkt)[20;40H4-78[6;24H[?25h[?25l ’[6;26H, prn=print_pkt)[20;40H5-79[6;25H[?25h[?25lp’[6;27H, prn=print_pkt)[20;40H6-80[6;26H[?25h[?25lo’[6;28H, prn=print_pkt)[20;40H7-81[6;27H[?25h[?25lr’[6;29H, prn=print_pkt)[20;40H8-82[6;28H[?25h[?25lt’[6;30H, prn=print_pkt)[20;40H9-83[6;29H[?25h[?25l[20;40H8-82[6;28H[?25h[?25l[20;40H7-81[6;27H[?25h[?25l[20;40H6-80[6;26H[?25h[?25l[20;40H5-79[6;25H[?25h[?25l[20;40H4-78[6;24H[?25h[?25l[20;40H3-77[6;23H[?25h[?25l[20;40H2-76[6;22H[?25h[?25lst port’[6;29H, prn=print_pkt)[6;45H[K[20;40H1-75[6;21H[?25h[?25l[20;40H2-76[6;22H[?25h[?25l[20;40H3-77[6;23H[?25h[?25l[20;40H4-78[6;24H[?25h[?25l[20;40H5-79[6;25H[?25h[?25l[20;40H6-80[6;26H[?25h[?25l[20;40H7-81[6;27H[?25h[?25l[20;40H8-82[6;28H[?25h[?25l ’[6;30H, prn=print_pkt)[20;40H9-83[6;29H[?25h[?25l[31m2[m’[6;31H, prn=print_pkt)[20;39H90-84[6;30H[?25h[?25l[31m3[m’[6;32H, prn=print_pkt)[20;40H1-85[6;31H[?25h[20;1H[K[6;30H[?25l[20;27H^[[6;30H[20;27H  [6;31H[20;37H5,90-84[7CAll[6;30H[?25h[?25l[20;27H:[6;30H[20;27H[K[20;1H:[?2004h[?25hwq[?25l[?2004l"task1b.py"<" [New] 5L, 188C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;seed@VM: ~[12/14/22][01;32mseed@VM[00m:[01;34m~[00m$ docks[K[K[K[K[Kdockps
+9ba5be189e18  seed-attacker
+dd91b240f0cf  hostA-10.9.0.5
+f7fe95c867a7  hostB-10.9.0.6
+]0;seed@VM: ~[12/14/22][01;32mseed@VM[00m:[01;34m~[00m$ docksh 9b
+root@VM:/# cd volumes/
+root@VM:/volumes# ls
+root@VM:/volumes# ls
+root@VM:/volumes# cd ..
+root@VM:/# ls
+bin   etc   lib32   media  proc  sbin  tmp  volumes
+boot  home  lib64   mnt    root  srv   usr
+dev   lib   libx32  opt    run	 sys   var
+root@VM:/# ifconfig
+br-19b7f2fdd765: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.60.1  netmask 255.255.255.0  broadcast 192.168.60.255
+        ether 02:42:5c:0e:c2:c6  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+br-42c7daac5c6a: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.9.0.1  netmask 255.255.255.0  broadcast 10.9.0.255
+        inet6 fe80::42:b9ff:fe21:fa58  prefixlen 64  scopeid 0x20<link>
+        ether 02:42:b9:21:fa:58  txqueuelen 0  (Ethernet)
+        RX packets 360  bytes 29120 (29.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 60  bytes 6825 (6.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        ether 02:42:f5:f5:7d:ec  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::ca66:9cd2:823d:2c39  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:c2:a6:11  txqueuelen 1000  (Ethernet)
+        RX packets 190  bytes 25521 (25.5 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 253  bytes 24201 (24.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 211  bytes 20640 (20.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 211  bytes 20640 (20.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+veth025e930: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::7c70:80ff:fe1d:ee24  prefixlen 64  scopeid 0x20<link>
+        ether 7e:70:80:1d:ee:24  txqueuelen 0  (Ethernet)
+        RX packets 180  bytes 17080 (17.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 267  bytes 26946 (26.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vethdab2eab: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::8a2:daff:fe5c:eaaf  prefixlen 64  scopeid 0x20<link>
+        ether 0a:a2:da:5c:ea:af  txqueuelen 0  (Ethernet)
+        RX packets 180  bytes 17080 (17.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 268  bytes 27016 (27.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+root@VM:/# [Kroot@VM:/# br-42c7daac5c6at 
+bash: br-42c7daac5c6a: command not found
+root@VM:/# telnet 10.9.0.1
+Trying 10.9.0.1...
+Connected to 10.9.0.1.
+Escape character is '^]'.
+Ubuntu 20.04.1 LTS
+VM login: 
+Login timed out after 60 seconds.
+Connection closed by foreign host.
+root@VM:/# exit
+exit
+]0;seed@VM: ~[12/14/22][01;32mseed@VM[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-12-14 10:41:31-05:00 [COMMAND_EXIT_CODE="1"]
